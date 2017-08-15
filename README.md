@@ -125,18 +125,6 @@ $ mix deps.get
 $ mix test
 ```
 
-### Atom Editor Support
-
->  Using the `language-erlang` package? `.xrl` and `.yrl` files not syntax highlighting?
-
-Syntax highlighting in Atom for `leex` (`.xrl`) and `yecc` (`yrl`) can be added by modifying `grammars/erlang.cson`.
-
-Just open the `atom-language-erlang` package code in Atom and make the change described here:
-
-https://github.com/jonathanmarvens/atom-language-erlang/pull/11
-
-however if that PR has been merged then just grab the latest version of the plugin!
-
 ## Contributing
 
 We actively welcome pull requests, bug reports, feedback, issues, questions. Come and chat in the [#erlang channel on Slack](https://graphql-slack.herokuapp.com/)
